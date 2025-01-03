@@ -1,7 +1,13 @@
-import Image from "next/image";
+import Navbar from "@/Components/Navbar";
+import Hero from "@/Components/Hero";
+import Video from "@/Components/Video";
 
 export default function Home() {
   return (
-    <>Rudalph Gonsalves</>
+    <>
+      <Navbar />
+      <Hero />
+      <Video />
+    </>
   );
 }
