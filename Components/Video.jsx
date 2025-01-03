@@ -9,7 +9,7 @@ const Video = () => {
     return (
         <div>
             <section>
-                <div className="max-w-screen-xl mx-auto px-4 py-28 gap-12 text-gray-600 md:px-8 xl:flex items-center align-middle">
+                <div className="max-w-screen-xl mx-auto px-4 py-12 lg:py-28 gap-12 text-gray-600 md:px-8 xl:flex items-center align-middle">
                     <div className="flex-1 max-w-xl mx-auto xl:mt-0">
                         <div className="relative">
                             <img src="https://images.unsplash.com/photo-1513258496099-48168024aec0?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80" className="rounded-lg" alt="" />
@@ -30,6 +30,11 @@ const Video = () => {
                         <p className="max-w-xl mx-auto xl:mx-0 text-center lg:text-right text-black">
                             Watch the video to explore everything about our project! Discover its purpose, features, and the innovative solutions it brings to the table. Don't miss out on understanding how it can make a difference!
                         </p>
+                        <div className="pt-5 items-end justify-end space-y-3 sm:space-x-6 sm:space-y-0 sm:flex  lg:mx-0 mx-20">
+                        <a href="javascript:void(0)" className="lg:px-7 py-3 w-full bg-white text-black text-center rounded-md shadow-md block sm:w-auto border border-[#F53838]">
+                            Documentation
+                        </a>
+                    </div>
 
                     </div>
 

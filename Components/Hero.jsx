@@ -5,7 +5,7 @@ const Hero = () => {
     return (
         <div className="bg-white">
             
-            <section className="mt-16 mx-auto max-w-screen-xl lg:pb-12 items-center lg:flex md:px-8 px-2">
+            <section className="mt-36 mx-auto max-w-screen-xl lg:pb-12 items-center lg:flex md:px-8 px-2">
                 <div className="space-y-4 flex-1 sm:text-center lg:text-left">
                     <h1 className="text-white font-bold text-4xl xl:text-5xl">
                         <span className="text-[#FF735C]"> Social Media Performance Analysis</span>

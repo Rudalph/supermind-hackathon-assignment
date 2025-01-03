@@ -20,8 +20,9 @@ const Navbar = () => {
     ]
 
     return (
-        <nav className="bg-[#F7F7F7] w-full border-b md:border-0 md:static py-4">
-            <div className='bg-white border lg:rounded-full lg:mx-40 mt-2'>
+        <div className=' w-full'>
+        <div className="bg-[#F7F7F7] w-full border-b md:border-0 md:static py-4 ">
+            <div className='bg-white border lg:rounded-full lg:mx-40 '>
                 <div className="items-center px-4 max-w-screen-xl mx-auto md:flex md:px-8">
 
                     <div className="flex items-center justify-between py-3 md:py-5 md:block">
@@ -75,7 +76,8 @@ const Navbar = () => {
                 </div>
 
             </div>
-        </nav>
+        </div>
+        </div>
     )
 }
 
