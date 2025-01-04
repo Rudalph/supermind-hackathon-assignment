@@ -1,5 +1,6 @@
 import { Roboto, Poppins } from "next/font/google";
 import "./globals.css";
+import Navbar from "@/Components/Navbar";
 
 
 const roboto = Roboto({
@@ -23,6 +24,7 @@ export default function RootLayout({ children }) {
       <body
         className={poppins.className}
       >
+        <Navbar />
         {children}
       </body>
     </html>
