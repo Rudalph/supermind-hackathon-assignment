@@ -7,7 +7,7 @@ const page = () => {
     <div>
       <div>
         <Metrics />
-         {/* <Insight /> */}
+        <Insight />
       </div>
     </div>
   )
