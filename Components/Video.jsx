@@ -45,7 +45,7 @@ const Video = () => {
                             <div className="absolute inset-0 w-full h-full bg-black/50" onClick={() => setVideoPopUp(false)}></div>
                             <div className="px-4 relative">
                                 <video className="rounded-lg w-full max-w-2xl" controls autoPlay={true}>
-                                    <source src="https://raw.githubusercontent.com/sidiDev/remote-assets/main/FloatUI.mp4" type="video/mp4" />
+                                    <source src="https://github.com/Rudalph/video/raw/refs/heads/main/SM-assignment-video.mp4" type="video/mp4" />
                                 </video>
                                 <button
                                     className="w-12 h-12 mb-5 rounded-full duration-150 bg-gray-800 hover:bg-gray-700 text-white"

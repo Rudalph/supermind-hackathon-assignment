@@ -15,7 +15,7 @@ const Navbar = () => {
     const navigation = [
         { title: "Home", path: "/" },
         { title: "Assignment", path: "/Assignment" },
-        { title: "Chat-Bot", path: "javascript:void(0)" },
+        { title: "Chat-Bot", path: "/Bot" },
         { title: "Docs", path: "javascript:void(0)" }
     ]
 
