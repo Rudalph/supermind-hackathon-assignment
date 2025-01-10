@@ -23,7 +23,7 @@ const Metrics = () => {
 
         try {
             setLoader(true);
-            const response = await fetch('https://social-media-engagement-backend.onrender.com/get-metrics', {
+            const response = await fetch('http://127.0.0.1:5002/get-metrics', {
                 method: 'POST',
                 headers: {
                     'Content-Type': 'application/json',

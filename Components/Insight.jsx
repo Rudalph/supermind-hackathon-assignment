@@ -96,7 +96,7 @@ function Insight() {
   useEffect(() => {
     const fetchInsights = async () => {
       try {
-        const response = await fetch('https://social-media-engagement-backend.onrender.com/generate-insights');
+        const response = await fetch('http://localhost:5001/generate-insights');
         const data = await response.json();
         // Assuming your backend returns insights as an array of objects
         const formattedInsights = data.json_output; // Convert points object to an array
